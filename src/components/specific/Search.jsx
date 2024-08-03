@@ -22,7 +22,8 @@ const search = useInputValidation("")
             <TextField label="" value={search.value} onChange={search.changeHandler} variant='outlined' size='small' InputProps={{
                 startAdornment:(
                     <InputAdornment position='start'>
-                        <SearchIcon/> </InputAdornment>
+                        <SearchIcon/> 
+                    </InputAdornment>
                 )
             }}/>
 
